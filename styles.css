@@ -1,4 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Jost&display=swap');
 *{
     padding: 0%;
     margin: 0%;
+}
+
+
+/******************************************** Header ********************************************/
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: space-between;
+    justify-content: center;
+
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: black; 
+    font-family: 'Jost', sans-serif;
+    font-size: 24pt;
+    text-decoration: none;
+}
+
+#tilmeld{
+    background-color: #3b67a8;
+    color: white;
+    padding: 0px 30px 0px 30px;
+    border-radius:5px;
+    margin-right: 50px;
+}
+.logo{margin-left: 50px;}
+
+
+/******************************************** Landing ********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobil */
+@media screen and (max-width:1500px){
+    /***********Header **********/
+    #pcheader{
+        display: none;
+    }
+
+    #mobilheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 50px 0px 50px ;
+    }
+
+    header{
+        height:64px;
+    }
+}
+
+/* Computer */
+@media screen and (min-width:1500px){
+    /***********Header **********/
+    #pcheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #mobilheader{
+        display: none;
+    }
+    header{
+        height:100px;
+    }
 }
