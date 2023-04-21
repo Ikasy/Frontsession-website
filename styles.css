@@ -161,7 +161,18 @@ main{
     padding-bottom:50px;
 }
 
+.hold{
+    width:84%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
 
+.hold section{
+    width:50%;
+}
 
 
 
@@ -205,6 +216,16 @@ footer{
     align-items: center;
     padding-bottom: 50px;
 }
+.tokolonner{
+    width:84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.tokolonner section{
+    width: 45%;
+}
 
 .feed{
     width:65%;
@@ -223,8 +244,16 @@ footer{
 .bbgc p{
     color: white;
 }
+
 .overskrift{
     padding-left: 8%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:66.666%;
+    color: #f78230;
+}
+.overskrift2{
+
     padding-top: 50px;
     padding-bottom: 50px;
     width:66.666%;
@@ -253,6 +282,43 @@ iframe{
 a{
     text-decoration: none;
 }
+
+#video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84%;
+    margin:auto;
+    margin-top: 100px;
+}
+
+#knap{
+    background-color: #3b67a8;
+    border-radius: 5px;
+    padding: 20px 50px 20px 50px;
+
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+
+    margin: 50px 0px 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Mobil */
 @media screen and (max-width:1500px){
