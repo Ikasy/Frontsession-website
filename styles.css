@@ -174,22 +174,6 @@ main{
     width:50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /******************************************** Footer ********************************************/
 footer{
     background-color: #AEAEAE;
@@ -316,20 +300,37 @@ ul {
     text-decoration: underline;
 }
 
+/******************************************** alumner ********************************************/
+
+/* Main styles */
 
 
+.alumner h2 {
+	color: #f78230;
+}
+.alumner h3 {
+	color: black;
+}
+#hvid{
+    color: white;
+}
+.bandname{
+    color: #f78230;
+    padding-bottom: 20px;
+}
+.text{
+    width: 40%;
+}
+.alumner section{
+    height:775px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
+/******************************************** mobil ********************************************/
 
-
-
-
-
-
-
-
-
-/* Mobil */
 @media screen and (max-width:1500px){
     /***********Header **********/
     #pcheader{
