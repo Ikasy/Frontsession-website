@@ -16,6 +16,9 @@ header{
 
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav{
@@ -42,6 +45,10 @@ nav a{
     margin-left: 50px;
 }
 
+
+main{
+    margin-top: 100px;
+}
 /******************************************** Landing ********************************************/
 
 .landing{
@@ -56,31 +63,196 @@ nav a{
     height: 4px;
 }
 
+/******************************************** Hold ********************************************/
+#pic1{
+    background-image: url(images/Roots-og-hybrid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#pic2{
+    background-image: url(images/jazzroom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#pic3{
+    background-image: url(images/rnb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#pic4{
+    background-image: url(images/indie.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#pic5{
+    background-image: url(images/jazzbeats.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#pic6{
+    background-image: url(images/Musikproduktion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.layout section{
+    width: 300px;
+    height:400px;
+    border-radius:5px;
+}
+
+.layout section div { 
+    width: 280px;
+    height: 380px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.layout section div h3 {
+    color: #f78230;
+    text-decoration: underline; 
+    font-size: 36px;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: right;
+}
+
+.brødtekst {
+    width: 84%;
+    margin: auto;
+}
+
+#space{
+    padding-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************** Footer ********************************************/
+footer{
+    background-color: #AEAEAE;
+
+    padding-top: 50px;
+}
+
+
 /******************************************** Layout ********************************************/
 
 .firekolonner{
+    width:84%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
 .trekolonner{
+    width:84%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
+}
+
+.feed{
+    width:65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
 .bbgc{
     background-color: #383838;
     color: #F78230;
+    padding-bottom: 50px;
 }
 .bbgc p{
     color: white;
 }
 .overskrift{
-    padding:50px
+    padding-left: 8%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:66.666%;
+    color: #f78230;
+}
+.arrows{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
+.arrows p{
+    color: #3b67a8;
+    font-size: 24px;
+    transform: scale(2);
+}
+
+img{
+    border-radius: 5px;
+}
+iframe{
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
 
 /* Mobil */
 @media screen and (max-width:1500px){
@@ -114,6 +286,7 @@ nav a{
         font-size: 36px;
         font-family: 'Hind Siliguri', sans-serif;
     }
+    
 
 
     p{
@@ -204,6 +377,10 @@ nav a{
         font-size: 48px;
         font-family: 'Hind Siliguri', sans-serif;
     }
+    h2{
+        font-size: 48px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
     h4{
         font-size: 36px;
         font-family: 'Hind Siliguri', sans-serif;
@@ -214,17 +391,17 @@ nav a{
         font-size: 24px;
     }
 
-    .landing section h3{
+    .landing .firekolonner section h3{
         font-family: 'Hind Siliguri', sans-serif;
         font-size: 36px;
     }
 
-    .landing section p{
+    .landing  .firekolonner section p{
         font-family: 'Jost', sans-serif;
         font-size: 24pt;
     }
 
-    .landing section{
+    .landing .firekolonner section{
         height: 400px;
         width: 300px;
         border-radius: 5px;
@@ -238,7 +415,7 @@ nav a{
         color: white;
     }
     
-    .landing section div{
+    .landing .firekolonner section div{
         width: 250px;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -246,12 +423,20 @@ nav a{
 
     .landing{
         background-image: url(images/339776320_598823578856700_3778013078219898664_n.jpg);
-        padding-left: 100px;
-        padding-right: 100px;
     }
+    .landing .firekolonner{
+        height: 550px;
+    }
+
 
     /*********** Nyheder **********/
     .trekolonner section{
     width: 400px;
+    }
+
+    /*********** Undervisere **********/
+    .undervisere{
+        width: 84%;
+        margin: auto;
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="da">        
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +11,13 @@
     <header>
         <!-- Computer header -->
         <div id="pcheader">
-            <img class="logo" src="images/frontsession-logo-computer.jpg" alt="frontsession-logo-computer">
+            <a href="index.html"><img class="logo" src="images/frontsession-logo-computer.jpg" alt="frontsession-logo-computer"></a>
             <nav>
-                <a href="#">Hold</a>
-                <a href="#">Optagelse</a>
+                <a href="hold.html">Hold</a>
+                <a href="optagelse.html">Optagelse</a>
                 <a href="#">Koncerter</a>
-                <a href="#">Alumner</a>
+                <a href="alumner.html">Alumner</a>
+                <a href="skolen.html">Skolen</a>
                 <a id="tilmeld" href="#">Tilmelding</a>
             </nav>
         </div>
@@ -34,30 +35,34 @@
     <main>
 
     <!------------------------------------------- Landing ------------------------------------------>
-        <div class="firekolonner landing">
-            <section> 
-                <h3>Optagelse</h3>
-                <div class="linje"></div>
-                <p>Prøve og info</p>
-            </section>
+        <div class="landing">
+            <div class="firekolonner">
+                <section> 
+                    <h3>Optagelse</h3>
+                    <div class="linje"></div>
+                    <p>Prøve og info</p>
+                </section>
 
-            <section>
-                <h3>Hold</h3>
-                <div class="linje"></div>
-                <p>Undervisning</p>
-            </section>
+                <a href="hold.html">
+                    <section>
+                        <h3>Hold</h3>
+                        <div class="linje"></div>
+                        <p>Undervisning</p>
+                    </section>
+                </a>
 
-            <section>
-                <h3>Koncerter</h3>
-                <div class="linje"></div>
-                <p>& arrangementer</p>
-            </section>
-            
-            <section>
-                <h3>Alumner</h3 >
-                <div class="linje"></div>
-                <p>Hvor er de nu?</p>
-            </section>
+                <section>
+                    <h3>Koncerter</h3>
+                    <div class="linje"></div>
+                    <p>& arrangementer</p>
+                </section>
+                
+                <section>
+                    <h3>Alumner</h3 >
+                    <div class="linje"></div>
+                    <p>Hvor er de nu?</p>
+                </section>
+            </div>
         </div>
 
     <!------------------------------------------- Nyheder ------------------------------------------>
@@ -86,14 +91,92 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo duis ut diam quam nulla. Tempor id eu nisl nunc mi ipsum faucibus. Eget magna fermentum iaculis eu. Lacus vestibulum sed arcu non odio euismod lacinia at quis. In est ante in nibh mauris. Platea dictumst quisque sagittis purus sit amet. </p>
                 </section>
             </div>
-        
+        </section>
+
+    <!------------------------------------------- Insta feed ------------------------------------------>
+        <section>
+            <div class="overskrift">
+                <h1>Instagram-feed</h1>
+                <div class="linje"></div>
+            </div>
+
+            
+            <div class="feed">
+                <img src="images/Skærmbillede 2023-04-20 145604.png" alt="">
+                <img src="images/Skærmbillede 2023-04-20 145648.png" alt="">
+                <img src="images/Skærmbillede 2023-04-20 145711.png" alt="">
+            </div>
+            <div class="arrows">
+                <p>&#10229;</p>
+                <p>&#10230;</p>
+            </div>
+            <div class="feed">
+                <img src="images/Skærmbillede 2023-04-20 145728.png" alt="">
+                <img src="images/Skærmbillede 2023-04-20 145748.png" alt="">
+                <img src="images/Skærmbillede 2023-04-20 145757.png" alt="">
+            </div>
         </section>
     
+    <!------------------------------------------- Undervisere------------------------------------------>
+    <section class="bbgc"> <!--bbgc=black background color -->
+        <div class="overskrift">
+            <h1>Undervisere</h1>
+            <div class="linje"></div>
+        </div>
+
+        <div class="firekolonner undervisere">
+            <section>
+                <img src="images/rasmus-fogh-frisenvang-lærer-frontsession.jpg" alt="">
+                <p>Rasmus Frisenvang</p>
+                <div class="linje"></div>
+                <p>Roots & Hybrid</p>
+            </section>
+
+            <section>
+                <img src="images/peter-hou-lærer-frontsession.jpg" alt="">
+                <p>Peter Hou</p>
+                <div class="linje"></div>
+                <p>Musikproduktion</p>
+            </section>
+
+            <section>
+                <img src="images/peter-clausen-lærer-frontsession.jpg" alt="">
+                <p>Peter Clausen</p>
+                <div class="linje"></div>
+                <p>Indie & R'n'B</p>
+            </section>
+
+            <section>
+                <img src="images/morten-klit-lærer-frontsession.jpg" alt="">
+                <p>Morten Klit</p>
+                <div class="linje"></div>
+                <p>Jazz Room & Beats</p>
+            </section>
+        </div>
+    </section>
 
         
     </main>
 
+    <footer>
+        <div class="trekolonner">
+            <div>
+                <a href=""><img src="images/instagram-logo.png" alt=""></a>
+                <a href=""><img src="images/vimeo-logo.png" alt=""></a>
+                <a href=""><img src="images/facebook-logo.png" alt=""></a>
+            </div>
 
+            <div>
+                <p>Adresse:</p>
+                <p>Mejlgade 53, 8000 Aarhus</p>
+                <br>
+                <p>Tlf. : 86 19 68 22</p>
+                <p>E-mail: info@bhs.dk</p>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.8342094801865!2d10.210678015946437!3d56.1599710806643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f97ae6e2883%3A0xd921f442997b44da!2sMusikskolen%20Frontsession!5e0!3m2!1sen!2sdk!4v1682060951171!5m2!1sen!2sdk" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
 
 </body>
 </html>
