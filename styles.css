@@ -305,7 +305,16 @@ a{
     margin: 50px 0px 50px 0px;
 }
 
-
+ul {
+    padding-left: 25px;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    
+}
+#tm{
+    color: white;
+    text-decoration: underline;
+}
 
 
 
@@ -445,6 +454,11 @@ a{
     }
     h2{
         font-size: 48px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    h3{
+        color: #f78230;
+        font-size: 36px;
         font-family: 'Hind Siliguri', sans-serif;
     }
     h4{
