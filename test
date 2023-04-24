@@ -1,0 +1,98 @@
+    /***********Header **********/
+    #pcheader{
+        display: none;
+    }
+
+    #mobilheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 50px 0px 50px ;
+    }
+
+    header{
+        height:64px;
+    }
+
+
+.landing{
+        background-image: url(images/frontsession-landing-klasse-hold.jpg);
+        height: 826px;
+    }
+
+    .landing section div{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 36px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    
+
+
+    p{
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+    }
+
+    .landing section h3{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 36px;
+    }
+
+    .landing section p{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 24pt;
+    }
+
+    .landing section{
+        height: 20%;
+        width: 90%;
+        border-radius: 5px;
+        background-color: rgba(24, 95, 145, 0.74);
+
+        color: white;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
+    .firekolonner{
+        display: flex;
+        flex-direction: column;
+    }
+
+/*********** Nyheder **********/
+    /* .trekolonner section{
+        width: 90%;
+        height: 20%;
+        border-radius: 5px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .trekolonner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trekolonner section p{
+        padding-bottom:50px;
+    }
+    
+    h4{
+        font-size: 16px;
+        font-family: 'Hind Siliguri', sans-serif;
+        text-align: center;
+        padding-top: 15px;
+    } 
