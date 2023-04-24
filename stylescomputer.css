@@ -36,16 +36,59 @@ nav a{
 /******************************************** Landing ********************************************/
 
 .landing{
-    height: 550px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+h1{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+h2{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+h3{
+    color: #f78230;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+h4{
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Jost', sans-serif;
+}
+
+.landing .firekolonner section h3{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.landing  .firekolonner section p{
+    font-family: 'Jost', sans-serif;
 }
 
 .linje{
     background-color: #f78230;
     height: 4px;
 }
+
+.landing .firekolonner section{
+    border-radius: 5px;
+    background-color: rgba(24, 95, 145, 0.74);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.landing .firekolonner section div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 /******************************************** Hold ********************************************/
 #pic1{
@@ -116,14 +159,10 @@ nav a{
 }
 
 .layout section{
-    width: 300px;
-    height:400px;
     border-radius:5px;
 }
 
 .layout section div { 
-    width: 280px;
-    height: 380px;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -131,7 +170,6 @@ nav a{
 .layout section div h3 {
     color: #f78230;
     text-decoration: underline; 
-    font-size: 36px;
     font-family: 'Hind Siliguri', sans-serif;
     text-align: right;
 }
@@ -147,7 +185,6 @@ nav a{
 
 .hold{
     width:84%;
-    height: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -195,15 +232,6 @@ footer{
     width: 45%;
 }
 
-.feed{
-    width:65%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 50px;
-}
-
 .bbgc{
     background-color: #383838;
     color: #F78230;
@@ -221,12 +249,12 @@ footer{
     color: #f78230;
 }
 .overskrift2{
-
     padding-top: 50px;
     padding-bottom: 50px;
     width:66.666%;
     color: #f78230;
 }
+
 .arrows{
     display: flex;
     width: 65%;
@@ -234,7 +262,6 @@ footer{
     margin: auto;
     padding-bottom: 50px;
 }
-
 .arrows p{
     color: #3b67a8;
     font-size: 24px;
@@ -263,11 +290,9 @@ a{
 #knap{
     background-color: #3b67a8;
     border-radius: 5px;
-    padding: 20px 50px 20px 50px;
 
     color: white;
     font-family: 'Jost', sans-serif;
-    font-size: 24px;
     text-decoration: none;
 
     margin: 50px 0px 50px 0px;
@@ -276,7 +301,6 @@ a{
 ul {
     padding-left: 25px;
     font-family: 'Jost', sans-serif;
-    font-size: 24px;
     
 }
 #tm{
@@ -306,16 +330,17 @@ ul {
     width: 40%;
 }
 .alumner section{
-    height:775px;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/*********** Undervisere **********/
+.undervisere{
+    width: 84%;
+    margin: auto;
+}
 
 /******************************************** mobil ********************************************/
-
-
 
 /* Computer */
 @media screen and (min-width:1500px){
@@ -325,12 +350,24 @@ ul {
         margin-top: 100px;
     }
 
+    #pcheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    #mobilheader{
+        display: none;
+    }
+    header{
+        height:100px;
+    }
+
     #tilmeld{
         background-color: #3b67a8;
         color: white;
         padding: 0px 30px 0px 30px;
         border-radius:5px;
-        margin-right: 50px;
     }
 
     nav a{
@@ -340,4 +377,104 @@ ul {
     #pcheader{
         width: 84%;
     }
+
+
+
+    /* Landing */
+    .landing{
+    height: 550px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    h4{
+        font-size: 36px;
+    }
+    p{
+        font-size: 24px;
+    }
+
+    .landing .firekolonner section h3{
+        font-size: 36px;
+    }
+
+    .landing  .firekolonner section p{
+        font-size: 24pt;
+    }
+
+    .landing .firekolonner section{
+        height: 400px;
+        width: 300px;
+    }
+    
+    .landing .firekolonner section div{
+        width: 250px;
+    }
+
+    .landing{
+        background-image: url(images/339776320_598823578856700_3778013078219898664_n.jpg);
+    }
+    .landing .firekolonner{
+        height: 550px;
+    }
+
+
+
+    /* Hold */
+    .layout section{
+        width: 300px;
+        height:400px;
+    }
+
+    .layout section div { 
+        width: 280px;
+        height: 380px;
+    }
+
+    .layout section div h3 {
+        font-size: 36px;
+    }
+
+    .hold{
+        height: 700px;
+    }
+
+    /* Instagram */
+    .feed{
+        width:65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+
+    /* styling */
+    #knap{
+        padding: 20px 50px 20px 50px;
+
+        font-size: 24px;
+    }
+
+    ul{
+        font-size: 24px;
+    }
+
+    /* Alumner */
+    .alumner section{
+        height:775px;
+    }
+
+    /* Nyheder */
+    .trekolonner section{
+        width: 400px;
+        }
 }
