@@ -108,12 +108,13 @@
     /* Instagram */
     .feed{
         width:65%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 50px;
     }
+    .arrows p{
+        font-size: 24px;
+        transform: scale(2);
+        padding-bottom: 25px;
+    }
+    
 
 
     /* styling */
@@ -239,5 +240,38 @@
     .medpicnyheder{
         display: block;
     }
-    
+
+        /* Instagram */
+        .feed{
+            width:65%;
+        }
+
+        .feed img{
+            width:250px;
+        }
+
+        .arrows p{
+            font-size: 16px;
+            transform: scale(2);
+            padding-bottom: 25px;
+        }
+        
+    /* Hold */
+    .layout section{
+        width: 300px;
+        height:400px;
+    }
+
+    .layout section div { 
+        width: 280px;
+        height: 380px;
+    }
+
+    .layout section div h3 {
+        font-size: 36px;
+    }
+
+    .hold{
+        height: 700px;
+    }
 }

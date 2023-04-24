@@ -259,12 +259,9 @@ footer{
     width: 65%;
     justify-content: space-between;
     margin: auto;
-    padding-bottom: 50px;
 }
 .arrows p{
     color: #3b67a8;
-    font-size: 24px;
-    transform: scale(2);
 }
 
 img{
@@ -305,6 +302,13 @@ ul {
 #tm{
     color: white;
     text-decoration: underline;
+}
+.feed{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
 /******************************************** alumner ********************************************/
