@@ -274,4 +274,16 @@
     .hold{
         height: 700px;
     }
+
+    video{
+        width: 720px;
+        height: 405px;
+    }
+
+    /* styling */
+    #knap{
+        padding: 20px 50px 20px 50px;
+
+        font-size: 16px;
+    }
 }
