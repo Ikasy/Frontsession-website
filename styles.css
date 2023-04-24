@@ -173,7 +173,7 @@ p{
     text-align: right;
 }
 
-.brødtekst {
+.bodytext {
     width: 84%;
     margin: auto;
 }
@@ -329,9 +329,7 @@ ul {
     color: #f78230;
     padding-bottom: 20px;
 }
-.text{
-    width: 40%;
-}
+
 .alumner section{
     display:flex;
     justify-content: space-between;
