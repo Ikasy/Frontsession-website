@@ -349,7 +349,7 @@ ul {
     }
 
 /*********** Landing **********/
-    .landing{
+    /* .landing{
         background-image: url(images/frontsession-landing-klasse-hold.jpg);
         height: 826px;
     }
@@ -403,7 +403,7 @@ ul {
     }
 
 /*********** Nyheder **********/
-    .trekolonner section{
+    /* .trekolonner section{
         width: 90%;
         height: 20%;
         border-radius: 5px;
@@ -429,95 +429,11 @@ ul {
         font-family: 'Hind Siliguri', sans-serif;
         text-align: center;
         padding-top: 15px;
-    }
+    } */
 
 }
 
 /* Computer */
 @media screen and (min-width:1500px){
-    /***********Header **********/
-    #pcheader{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #mobilheader{
-        display: none;
-    }
-    header{
-        height:100px;
-    }
-
-    /*********** Landing **********/
-    h1{
-        font-size: 48px;
-        font-family: 'Hind Siliguri', sans-serif;
-    }
-    h2{
-        font-size: 48px;
-        font-family: 'Hind Siliguri', sans-serif;
-    }
-    h3{
-        color: #f78230;
-        font-size: 36px;
-        font-family: 'Hind Siliguri', sans-serif;
-    }
-    h4{
-        font-size: 36px;
-        font-family: 'Hind Siliguri', sans-serif;
-        text-align: center;
-    }
-    p{
-        font-family: 'Jost', sans-serif;
-        font-size: 24px;
-    }
-
-    .landing .firekolonner section h3{
-        font-family: 'Hind Siliguri', sans-serif;
-        font-size: 36px;
-    }
-
-    .landing  .firekolonner section p{
-        font-family: 'Jost', sans-serif;
-        font-size: 24pt;
-    }
-
-    .landing .firekolonner section{
-        height: 400px;
-        width: 300px;
-        border-radius: 5px;
-        background-color: rgba(24, 95, 145, 0.74);
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        color: white;
-    }
-    
-    .landing .firekolonner section div{
-        width: 250px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .landing{
-        background-image: url(images/339776320_598823578856700_3778013078219898664_n.jpg);
-    }
-    .landing .firekolonner{
-        height: 550px;
-    }
-
-
-    /*********** Nyheder **********/
-    .trekolonner section{
-    width: 400px;
-    }
-
-    /*********** Undervisere **********/
-    .undervisere{
-        width: 84%;
-        margin: auto;
-    }
+   
 }
