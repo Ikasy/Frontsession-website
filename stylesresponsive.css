@@ -60,20 +60,20 @@
         font-size: 24px;
     }
 
-    .landing .firekolonner section h3{
+    .landing .firekolonner a section h3{
         font-size: 36px;
     }
 
-    .landing  .firekolonner section p{
+    .landing  .firekolonner a section p{
         font-size: 24pt;
     }
 
-    .landing .firekolonner section{
+    .landing .firekolonner a section{
         height: 400px;
         width: 300px;
     }
     
-    .landing .firekolonner section div{
+    .landing .firekolonner a section div{
         width: 250px;
     }
 
@@ -204,20 +204,20 @@
         font-size: 16px;
     }
 
-    .landing .firekolonner section h3{
+    .landing .firekolonner a section h3{
         font-size: 28px;
     }
 
-    .landing  .firekolonner section p{
+    .landing  .firekolonner a section p{
         font-size: 16pt;
     }
 
-    .landing .firekolonner section{
+    .landing .firekolonner a section{
         height: 400px;
         width: 250px;
     }
     
-    .landing .firekolonner section div{
+    .landing .firekolonner a section div{
         width: 200px;
     }
     .landing{
@@ -307,5 +307,76 @@
     }
     main{
         margin-top:64px
+    }
+
+    /* Landing */
+    h1{
+        font-size: 36px;
+        }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+
+    .landing .firekolonner a section h3{
+        font-size: 24px;
+    }
+
+    .landing  .firekolonner a section p{
+        font-size: 16pt;
+    }
+
+    
+    .landing .firekolonner a{
+        height:150px;
+        width: 100%; 
+    }
+    .landing .firekolonner a section{
+        height:150px;
+        width: 100%;
+    }
+    .landing .firekolonner a section div{
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .landing{
+        background-image: url(images/339776320_598823578856700_3778013078219898664_n.jpg);
+    }
+    .landing .firekolonner{
+        height:850px;
+        flex-direction: column;
+    }
+
+
+    /* Nyheder */
+    .trekolonner{
+        flex-direction: column;
+    
+    }
+
+    /* Instagram */
+    .remove{
+        display: none;
+    }
+
+    .feed{
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Undervisere */
+    .firekolonner{
+        flex-direction: column;
+    
     }
 }
