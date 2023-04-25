@@ -53,7 +53,13 @@
         background-color: #3b67a8;
         color: white;
         padding: 10px 30px 10px 30px;
-        border-radius:5px;
+        border-radius:5px; 
+        
+        transition: 0.5s;
+    }
+
+    #tilmeld:hover{
+        background-color: #F78230;
     }
 
     nav{
@@ -152,6 +158,12 @@
         padding: 20px 50px 20px 50px;
 
         font-size: 24px;
+        
+        transition: 0.5s;
+    }
+
+    #knap:hover{
+        background-color: #F78230;
     }
 
     ul{
@@ -229,8 +241,14 @@
     #tilmeld{
         background-color: #3b67a8;
         color: white;
-        padding: 0px 30px 0px 30px;
+        padding: 10px 30px 10px 30px;
         border-radius:5px;
+
+        transition: 0.5s;
+    }
+
+    #tilmeld:hover{
+        background-color: #F78230;
     }
     
 
@@ -356,6 +374,12 @@
         padding: 20px 50px 20px 50px;
 
         font-size: 16px;
+
+        transition: 0.5s;
+    }
+
+    #knap:hover{
+        background-color: #F78230;
     }
 }
 
