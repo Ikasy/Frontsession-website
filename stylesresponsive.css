@@ -1,5 +1,5 @@
 /* Computer */
-@media screen and (min-width:1500px){
+@media screen and (min-width:1450px){
     
     /* Header */
     main{
@@ -152,12 +152,12 @@
     }
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1450px){
 
 
     /* Header */
     main{
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
     #pcheader{
@@ -170,7 +170,7 @@
         display: none;
     }
     header{
-        height:100px;
+        height:80px;
     }
 
     #tilmeld{
@@ -185,7 +185,7 @@
         width: 60%;
     }
     nav a{
-        font-size: 24px;
+        font-size: 20px;
     }
 
     #pcheader{
@@ -304,7 +304,7 @@
 }
 
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1080px){
     /***********Header **********/
     #pcheader{
         display: none;
