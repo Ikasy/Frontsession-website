@@ -254,6 +254,7 @@
 
     nav{
         width: 60%;
+        align-items: center;
     }
     nav a{
         font-size: 20px;
