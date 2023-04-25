@@ -40,14 +40,14 @@
     </div>
 
     <div class="alumner">
-        <section class="tokolonner">
+        <section class="tokolonner spacebottom">
             <div class="text">
-                <h2>Clara</h2>
+                <h2 class="name">Clara</h2>
                 <h3>Sangskrivning</h3>
                 <p>Den aarhusianske singer/songwriter Clara gik på Frontsession i 2017. Sidenhen har hun vundet Danish Music Awards i 2019 som “Årets Nye Danske Navn”.  </p>
             </div>
 
-            <div class="image">
+            <div>
                 <img class="bigpicnyheder" src="images/clara-frontsession.png" alt="">
                 <img class="medpicnyheder" src="images/clara-frontsession-medium.jpg" alt="">
                 <img class="smallpicnyheder" src="images/clara-frontsession-mobil.jpg" alt="">
@@ -55,46 +55,69 @@
         </section>
 
 
-        <div class="bbgc">
+        <div class="bbgc spacetop spacebottom">
             <section class="tokolonner reverse">
-                <div class="image">
+                <div>
                     <img class="bigpicnyheder" src="images/hugo-helmig-frontsession.png" alt="">
                     <img class="medpicnyheder" src="images/hugo-helmig-frontsession-medium.jpg" alt="">
                     <img class="smallpicnyheder" src="images/hugo-helmig-frontsession-mobil.jpg" alt="">
                 </div>
                     
                 <div class="text">
-                    <h2>Hugo Helmig</h2>
-                    <h3 id="hvid">Sangskrivning</h3>
+                    <h2 class="name">Hugo Helmig</h2>
+                    <h3 id="hvid">Sangskrivning</h3> <!--Id'et burde have været en class men fordi den nedenunder ikke kunne bruge classen bliver dette også til et id -->
                     <p>Den aarhusianske singer/songwriter Hugo gik på Frontsession i 2017. Hans debutsingle "Please Don't Lie", blev den mest spillede danske sang på dansk radio i 2017.</p>
                 </div>
             </section>
         </div>
 
-        <section class="tokolonner">
+
+
+        <section class="tokolonner spacetop spacebottom">
             <div class="text">
                 <h2>Aske Døssing</h2>
-                <p class="bandname">AySay, Total Hip Replacement, Døssing</p>
+                <p id="bandname">AySay, Total Hip Replacement, Døssing</p>
                 <h3>Musikproduktion</h3>
                 <p>Aske er med i flere bands som percussionist/trommeslager og producer. Linjen Roots and Hybrid tager stor inspiration fra AySays musik og udtryk. I 2022 vandt Aysay “Årets Roots Navn” til Danish Music Awards. </p>
             </div>
 
-            <div class="image">
+            <div>
                 <img class="bigpicnyheder" src="images/aske-døssing-frontsession.png" alt="">
                 <img class="medpicnyheder" src="images/aske-døssing-frontsession-medium.jpg" alt="">
                 <img class="smallpicnyheder" src="images/aske-døssing-frontsession-mobil.jpg" alt="">
             </div>
         </section>
+
+
+
+        <div class="bbgc spacetop spacebottom">
+            <section class="tokolonner reverse">
+                <div>
+                    <img class="bigpicnyheder" src="images/adrian-christensen-frontsession.jpg" alt="">
+                    <img class="medpicnyheder" src="images/adrian-christensen-frontsession-medium.jpg" alt="">
+                    <img class="smallpicnyheder" src="images/adrian-christensen-frontsession-mobil.jpg" alt="">
+                </div>
+                    
+                <div class="text">
+                    <h2>Adrian Christensen</h2>
+                <p id="bandname">Abekejser, Clapper, Karmen Roivassepp Quartet</p><!--Id'et burde have været en class men baggrunden går ind og overskrider farven og vil ikke lade vær -->
+                <h3 id="hvid">Jazz</h3> <!--Id'et burde have været en class men det virker kun som id -->
+                <p>Efter Frontsession tog bassisten Adrian en bachelor samt Nordic Master in Jazz fra Det Jyske Musik Konservatorium. Nu er han actual i flere jazz quartetter og bands.</p>
+                </div>
+            </section>
+        </div>
     </div>
 </main>
 
 
 <footer>
-    <div class="trekolonner">
+    <div class="trekolonner spacetop spacebottom">
         <div>
-            <a href=""><img src="images/instagram-logo.png" alt=""></a>
             <a href=""><img src="images/vimeo-logo.png" alt=""></a>
             <a href=""><img src="images/facebook-logo.png" alt=""></a>
+            <a href=""><img id="insta" src="images/instagram-logo.png" alt=""></a>
+            
+            
         </div>
 
         <div>

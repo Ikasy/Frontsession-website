@@ -11,7 +11,6 @@ header{
     display: flex;
     flex-direction: column;
 
-    align-items: space-between;
     justify-content: center;
 
     background-color: white;
@@ -155,7 +154,7 @@ p{
     justify-content: space-between;
     width: 84%;
     margin: auto;
-    margin-bottom: 5%;
+    
 }
 
 .layout section{
@@ -179,10 +178,6 @@ p{
     margin: auto;
 }
 
-#space{
-    padding-bottom:50px;
-}
-
 .hold{
     width:84%;
     display: flex;
@@ -199,7 +194,6 @@ p{
 footer{
     background-color: #AEAEAE;
 
-    padding-top: 50px;
 }
 
 
@@ -219,14 +213,12 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
 }
 .tokolonner{
     width:84%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
 }
 .tokolonner section{
     width: 45%;
@@ -235,22 +227,19 @@ footer{
 .bbgc{
     background-color: #383838;
     color: #F78230;
-    padding-bottom: 50px;
 }
 .bbgc p{
     color: white;
 }
 
+
+
 .overskrift{
     padding-left: 8%;
-    padding-top: 50px;
-    padding-bottom: 50px;
     width:66.666%;
     color: #f78230;
 }
 .overskrift2{
-    padding-top: 50px;
-    padding-bottom: 50px;
     width:86.666%;
     color: #f78230;
 }
@@ -281,7 +270,6 @@ a{
     align-items: center;
     width: 84%;
     margin:auto;
-    margin-top: 100px;
 }
 
 #knap{
@@ -309,7 +297,11 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
+}
+
+p a {
+    text-decoration: underline;
+    color: white;
 }
 
 /******************************************** alumner ********************************************/
@@ -326,9 +318,8 @@ ul {
 #hvid{
     color: white;
 }
-.bandname{
+#bandname{
     color: #f78230;
-    padding-bottom: 20px;
 }
 
 .alumner section{
