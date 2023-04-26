@@ -108,7 +108,14 @@
     .landing .firekolonner a section{
         height: 400px;
         width: 300px;
+        transition: 0.5s;
     }
+    
+    .landing .firekolonner section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.2);
+    }
+    
     
     .landing .firekolonner a section div{
         width: 250px;
@@ -128,6 +135,12 @@
         width: 400px;
         height:400px;
         
+        transition: 0.5s;
+    }
+
+    .layout section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.4);
     }
 
     .layout section div { 
@@ -293,7 +306,14 @@
     .landing .firekolonner a section{
         height: 350px;
         width: 225px;
+        transition: 0.5s;
     }
+    
+    .landing .firekolonner section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.2);
+    }
+    
     
     .landing .firekolonner a section div{
         width: 175px;
@@ -352,6 +372,13 @@
     .layout section{
         width: 300px;
         height:400px;
+
+        transition: 0.5s;
+    }
+
+    .layout section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.4);
     }
 
     .layout section div { 

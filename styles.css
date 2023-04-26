@@ -88,14 +88,8 @@ p{
     align-items: center;
 
     color: white;
-
-    transition: 0.5s;
 }
 
-.landing .firekolonner section:hover{
-    transform:scale(1.05);
-    filter: brightness(1.2);
-}
 
 
 .landing .firekolonner section div{
@@ -173,13 +167,9 @@ p{
 
 .layout section{
     border-radius:5px; 
+}
     
-    transition: 0.5s;
-}
-.layout section:hover{
-    transform:scale(1.05);
-    filter: brightness(1.4);
-}
+
 
 .layout section div { 
     display: flex;
