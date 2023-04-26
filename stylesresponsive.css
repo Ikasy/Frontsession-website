@@ -205,6 +205,7 @@
     }
 }
 
+/*mellem skærm */
 @media screen and (max-width:1450px){
     .spacetop{
         padding-top: 75px;
@@ -411,7 +412,7 @@
     }
 }
 
-
+/*mobil*/
 @media screen and (max-width:1080px){
     .spacetop{
         padding-top: 75px;
@@ -624,3 +625,4 @@
     }
 
 }
+
