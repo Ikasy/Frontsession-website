@@ -358,7 +358,16 @@ p a {
 #hvid{
     color: white;
 }
+
+#white{
+    color: white;
+}
+
 #bandname{
+    color: #f78230;
+}
+
+#members{
     color: #f78230;
 }
 

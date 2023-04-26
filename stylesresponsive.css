@@ -24,6 +24,11 @@
     #bandname{
         margin-bottom: 50px;
     }
+
+    #members{
+        margin-bottom: 50px;
+    }
+
     .name{
         margin-bottom: 35px;
     }
@@ -237,6 +242,10 @@
         margin-bottom:25px;
     }
     #bandname{
+        margin-bottom: 50px;
+    }
+    
+    #members{
         margin-bottom: 50px;
     }
     .name{
@@ -454,6 +463,9 @@
         margin-bottom:25px;
     }
     #bandname{
+        margin-bottom: 50px;
+    }
+    #members{
         margin-bottom: 50px;
     }
     .name{
