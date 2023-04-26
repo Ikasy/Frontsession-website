@@ -938,6 +938,11 @@ p a {
         padding-bottom: 5%;
     }
 
+    .landing .firekolonner section:hover{
+        transform:scale(1);
+        filter: brightness(1);
+    }
+
 
     /* Nyheder */
     .trekolonner{
@@ -1004,6 +1009,8 @@ p a {
     height:auto;
 }
 
+
+
 .undervisere{
     flex-direction: row;
     margin: auto;
@@ -1018,6 +1025,11 @@ p a {
         width: 100%;
         height:200px;
         margin-bottom:5px;
+    }
+
+    .layout section:hover{
+            transform:scale(1);
+            filter: brightness(1);
     }
 
     .layout section div { 
