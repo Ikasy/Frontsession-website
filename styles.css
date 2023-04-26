@@ -382,3 +382,671 @@ p a {
     margin: auto;
 }
 
+/********* Style Responsive **********/
+/* Computer */
+@media screen and (min-width:1450px){
+    
+    .spacetop{
+        padding-top: 75px;
+    }
+    .spacebottom{
+        padding-bottom: 75px;
+    }
+    .holdspace{
+        padding:75px;
+    }
+
+    footer a{
+        margin-left:15px;
+    }
+    #insta{
+        width:38px;
+        height: 38px;
+    }
+    .overskrift2{
+        margin-bottom:25px;
+    }
+    #bandname{
+        margin-bottom: 50px;
+    }
+
+    #members{
+        margin-bottom: 50px;
+    }
+
+    .name{
+        margin-bottom: 35px;
+    }
+    .overskrift{
+        padding-top:50px;
+        padding-bottom: 25px;
+    }
+
+
+
+
+    /* Header */
+    main{
+        margin-top: 100px;
+    }
+
+    #pcheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    #mobilheader{
+        display: none;
+    }
+    header{
+        height:100px;
+    }
+
+    #tilmeld{
+        background-color: #3b67a8;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        border-radius:5px; 
+        
+        transition: 0.5s;
+    }
+
+    #tilmeld:hover{
+        background-color: #F78230;
+    }
+
+    nav{
+        width: 50%;
+        align-items: center;
+    }
+    nav a{
+        font-size: 24px;
+    }
+
+    #pcheader{
+        width: 84%;
+    }
+
+
+
+    /* Landing */
+    .landing{
+    height: 550px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    h4{
+        font-size: 36px;
+    }
+
+    h5{
+        font-size: 24px;
+    }
+    p{
+        font-size: 24px;
+    }
+
+    .landing .firekolonner a section h3{
+        font-size: 36px;
+    }
+
+    .landing  .firekolonner a section p{
+        font-size: 24pt;
+    }
+
+    .landing .firekolonner a section{
+        height: 400px;
+        width: 300px;
+        transition: 0.5s;
+    }
+    
+    .landing .firekolonner section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.2);
+    }
+    
+    
+    .landing .firekolonner a section div{
+        width: 250px;
+    }
+
+    .landing{
+        background-image: url(images/339776320_598823578856700_3778013078219898664_n.jpg);
+    }
+    .landing .firekolonner{
+        height: 550px;
+    }
+
+
+
+    /* Hold */
+    .layout section{
+        width: 400px;
+        height:400px;
+        
+        transition: 0.5s;
+    }
+
+    .layout section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.4);
+    }
+
+    .layout section div { 
+        width: 380px;
+        height: 380px;
+    }
+
+    .layout section div h3 {
+        font-size: 36px;
+    }
+
+
+    /* Instagram */
+    .feed{
+        width:65%;
+    }
+    .arrows p{
+        font-size: 24px;
+        transform: scale(2);
+        padding-top: 10px;
+        padding-bottom: 13px;
+    }
+    
+
+
+    /* styling */
+    #knap{
+        padding: 20px 50px 20px 50px;
+
+        font-size: 24px;
+        
+        transition: 0.5s;
+    }
+
+    #knap:hover{
+        background-color: #F78230;
+    }
+
+    ul{
+        font-size: 24px;
+    }
+
+    /* Alumner */
+    
+    .text{
+        width: 40%;
+    }
+
+    /* Nyheder */
+    .trekolonner section{
+        width: 400px;
+        }
+
+    .bigpicnyheder{
+        display: block;
+    }
+    .medpicnyheder{
+        display: none;
+    }
+    .smallpicnyheder{
+        display: none;
+    }
+}
+
+/*mellem skærm */
+@media screen and (max-width:1450px){
+    .spacetop{
+        padding-top: 75px;
+    }
+    .spacebottom{
+        padding-bottom: 75px;
+    }
+
+    .holdspace{
+        padding:75px;
+    }
+        
+    footer a{
+        margin-left:15px;
+    }
+    #insta{
+        width:38px;
+        height: 38px;
+    }
+    .overskrift2{
+        margin-bottom:25px;
+    }
+    #bandname{
+        margin-bottom: 50px;
+    }
+    
+    #members{
+        margin-bottom: 50px;
+    }
+    .name{
+        margin-bottom: 35px;
+    }
+    .overskrift{
+        padding-top:50px;
+        padding-bottom: 25px;
+    }
+
+    /* Header */
+    main{
+        margin-top: 80px;
+    }
+
+    #pcheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    #mobilheader{
+        display: none;
+    }
+    header{
+        height:80px;
+    }
+
+    #tilmeld{
+        background-color: #3b67a8;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        border-radius:5px;
+
+        transition: 0.5s;
+    }
+
+    #tilmeld:hover{
+        background-color: #F78230;
+    }
+    
+
+    nav{
+        width: 60%;
+        align-items: center;
+    }
+    nav a{
+        font-size: 20px;
+    }
+
+    #pcheader{
+        width: 84%;
+    }
+
+/*********** Landing **********/
+
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 28px;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+
+    .landing .firekolonner a section h3{
+        font-size: 28px;
+    }
+
+    .landing  .firekolonner a section p{
+        font-size: 16pt;
+    }
+
+    .landing .firekolonner a section{
+        height: 350px;
+        width: 225px;
+        transition: 0.5s;
+    }
+    
+    .landing .firekolonner section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.2);
+    }
+    
+    
+    .landing .firekolonner a section div{
+        width: 175px;
+    }
+    .landing{
+        background-image: url(images/339776320_598823578856700_3778013078219898664_n.jpg);
+    }
+
+    .landing .firekolonner{
+        height: 550px;
+    }
+
+    /* Nyheder */
+    .trekolonner section{
+        width: 300px;
+        }
+
+    /* Alumner */
+    .bigpicnyheder{
+        display: none;
+    }
+
+    .medpicnyheder{
+        display: block;
+    }
+
+    .smallpicnyheder{
+        display: none;
+    }
+
+    .text{
+        width: 40%;
+    }
+
+    /* Instagram */
+    .feed{
+        width:75%;
+    }
+
+    .feed img{
+        width:250px;
+    }
+
+    .arrows p{
+        font-size: 16px;
+        transform: scale(2);
+        padding-top: 10px;
+        padding-bottom: 13px;
+    }
+
+    .arrows{
+        width: 75%;
+    }
+        
+    /* Hold */
+    .layout section{
+        width: 300px;
+        height:400px;
+
+        transition: 0.5s;
+    }
+
+    .layout section:hover{
+        transform:scale(1.05);
+        filter: brightness(1.4);
+    }
+
+    .layout section div { 
+        width: 280px;
+        height: 380px;
+    }
+
+    .layout section div h3 {
+        font-size: 36px;
+    }
+
+
+
+    video{
+        width: 720px;
+        height: 405px;
+    }
+
+    /* styling */
+    #knap{
+        padding: 20px 50px 20px 50px;
+
+        font-size: 16px;
+
+        transition: 0.5s;
+    }
+
+    #knap:hover{
+        background-color: #F78230;
+    }
+}
+
+/*mobil*/
+@media screen and (max-width:1080px){
+    .spacetop{
+        padding-top: 75px;
+    }
+    .spacebottom{
+        padding-bottom: 75px;
+    }
+
+    .holdspace{
+        padding:0px;
+    }
+    
+    
+    footer a{
+        margin-left:15px;
+    }
+    #insta{
+        width:38px;
+        height: 38px;
+    }
+    .overskrift2{
+        margin-bottom:25px;
+    }
+    #bandname{
+        margin-bottom: 50px;
+    }
+    #members{
+        margin-bottom: 50px;
+    }
+    .name{
+        margin-bottom: 35px;
+    }
+    .overskrift{
+        padding-top:50px;
+        padding-bottom: 25px;
+    }
+    .textspace{
+        margin-bottom: 50px
+    }
+
+
+    /***********Header **********/
+    #pcheader{
+        display: none;
+    }
+
+    #mobilheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 50px 0px 50px ;
+    }
+
+    header{
+        height:64px;
+    }
+    main{
+        margin-top:64px
+    }
+
+    /* Landing */
+    h1{
+        font-size: 30px;
+        }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 18px;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+
+    .landing .firekolonner a section h3{
+        font-size: 24px;
+    }
+
+    .landing  .firekolonner a section p{
+        font-size: 16pt;
+    }
+
+    
+    .landing .firekolonner a{
+        height:150px;
+        width: 100%; 
+    }
+    .landing .firekolonner a section{
+        height:150px;
+        width: 100%;
+    }
+    .landing .firekolonner a section div{
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .landing{
+        background-image: url(images/339776320_598823578856700_3778013078219898664_n.jpg);
+    }
+    .landing .firekolonner{
+        height:675px;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+
+    /* Nyheder */
+    .trekolonner{
+        flex-direction: column;
+    
+    }
+
+    /* Instagram */
+    .remove{
+        display: none;
+    }
+
+    .feed{
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Undervisere */
+    .firekolonner{
+        flex-direction: column;
+    
+    }
+
+    /* Alumner */
+    .tokolonner{
+        flex-direction: column-reverse;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+
+    .bigpicnyheder{
+        display: none;
+    }
+
+    .medpicnyheder{
+        display: none;
+    }
+    .smallpicnyheder{
+        display: block;
+    }
+    .text{
+        width: 300px;
+    }
+
+
+    .overskrift{
+        width: 85%;
+    }
+    .tokolonner section{
+        width: 100%;
+    }
+
+.firekolonner{
+    flex-wrap: wrap;
+}
+
+.firekolonner section img{
+    width: 100%;
+    height:auto;
+}
+.firekolonner section{
+    width: 48%;
+    height:auto;
+}
+
+.undervisere{
+    flex-direction: row;
+    margin: auto;
+}
+/* Hold */
+
+
+.layout{
+    flex-direction: column;
+}
+.layout section{
+        width: 100%;
+        height:200px;
+        margin-bottom:5px;
+    }
+
+    .layout section div { 
+        width: 94%;
+        height: 380px;
+    }
+
+    .layout section div h3 {
+        font-size: 30px;
+    }
+
+
+
+    /* fag */
+    video{
+        width: 100%;
+        height: auto;
+    }
+
+    .smallpicnyheder{
+        width:100%;
+        height: auto;
+    }
+    .hold{
+        flex-direction: column-reverse;
+    }
+    .hold section{
+        width:100%;
+    }
+
+}
+
