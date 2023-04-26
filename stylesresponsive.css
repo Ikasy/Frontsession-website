@@ -7,6 +7,10 @@
     .spacebottom{
         padding-bottom: 75px;
     }
+    .holdspace{
+        padding:75px;
+    }
+
     footer a{
         margin-left:15px;
     }
@@ -92,6 +96,10 @@
     }
     h4{
         font-size: 36px;
+    }
+
+    h5{
+        font-size: 24px;
     }
     p{
         font-size: 24px;
@@ -213,6 +221,11 @@
     .spacebottom{
         padding-bottom: 75px;
     }
+
+    .holdspace{
+        padding:75px;
+    }
+        
     footer a{
         margin-left:15px;
     }
@@ -291,6 +304,10 @@
     }
     h4{
         font-size: 28px;
+    }
+
+    h5{
+        font-size: 16px;
     }
     p{
         font-size: 16px;
@@ -420,6 +437,12 @@
     .spacebottom{
         padding-bottom: 75px;
     }
+
+    .holdspace{
+        padding:0px;
+    }
+    
+    
     footer a{
         margin-left:15px;
     }
@@ -476,6 +499,10 @@
     }
     h4{
         font-size: 18px;
+    }
+
+    h5{
+        font-size: 16px;
     }
     p{
         font-size: 16px;

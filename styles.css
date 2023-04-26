@@ -60,6 +60,13 @@ h3{
 h4{
     font-family: 'Hind Siliguri', sans-serif;
 }
+
+h5{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
 p{
     font-family: 'Jost', sans-serif;
 
